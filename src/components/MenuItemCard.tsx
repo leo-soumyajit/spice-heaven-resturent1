@@ -11,19 +11,11 @@ import rolls from "@/assets/rolls.jpg";
 import vegRice from "@/assets/veg-rice.jpg";
 import nonVegRice from "@/assets/non-veg-rice.jpg";
 import chowmein from "@/assets/chowmein.jpg";
-import chickenbiryani from "@/assets/chicken-biriyani.avif";
-import eggbiryani from "@/assets/egg-biriyani.avif";
-import alubiryani from "@/assets/alu-biriyani.png";
-import vegchow from "@/assets/vegchow.jpg";
-import chickenchow from "@/assets/chickenchow.png";
-import eggchow from "@/assets/eggchow.jpg";
-import eggchickenchow from "@/assets/eggchickenchow.png";
-import pannerchow from "@/assets/pannerchow.png";
-import mixchow from "@/assets/mixchow.jpg";
 
 interface MenuItemCardProps {
   item: MenuItem;
   onClick: () => void;
+  variant?: "card" | "circle";
 }
 
 const imageMap: Record<string, string> = {
@@ -36,19 +28,41 @@ const imageMap: Record<string, string> = {
   "veg-rice": vegRice,
   "non-veg-rice": nonVegRice,
   "chowmein": chowmein,
-  "chicken-biriyani": chickenbiryani,
-  "egg-biriyani": eggbiryani,
-  "alu-biriyani": alubiryani,
-  "vegchow": vegchow,
-  "chickenchow": chickenchow,
-  "eggchow": eggchow,
-  "eggchickenchow": eggchickenchow,
-  "pannerchow": pannerchow,
-  "mixchow": mixchow,
 };
 
-const MenuItemCard = ({ item, onClick }: MenuItemCardProps) => {
+const MenuItemCard = ({ item, onClick, variant = "card" }: MenuItemCardProps) => {
   const imageSrc = imageMap[item.image] || chickenCurry;
+
+  if (variant === "circle") {
+    return (
+      <button
+        onClick={onClick}
+        className="group flex flex-col items-center gap-2 p-2 rounded-lg hover:bg-muted/50 transition-all duration-300 cursor-pointer"
+      >
+        <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+          <img
+            src={imageSrc}
+            alt={item.name}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        </div>
+        <div className="text-center">
+          <h3 className="font-semibold text-sm sm:text-base text-foreground line-clamp-1">
+            {item.name}
+          </h3>
+          <div className="flex items-center justify-center gap-0.5 text-primary font-bold text-sm sm:text-base mt-1">
+            <span>₹{item.price}</span>
+            {item.half && (
+              <span className="text-xs text-muted-foreground ml-1">
+                / ₹{item.half}
+              </span>
+            )}
+          </div>
+        </div>
+      </button>
+    );
+  }
 
   return (
     <div 

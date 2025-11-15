@@ -11,6 +11,7 @@ export interface MenuCategory {
 }
 
 export const menuData: MenuCategory = {
+  "All Items": [], // Will be populated below
   "Chicken Items": [
     { name: "Chicken Pakora", price: 115, description: "Crispy deep-fried chicken fritters marinated with aromatic spices and gram flour coating. Served hot with mint chutney.", image: "chicken-pakora" },
     { name: "Chicken Lolipop", price: 125, description: "Indo-Chinese style chicken drumettes marinated in spicy batter, deep-fried until golden and crispy. A perfect appetizer.", image: "chicken-pakora" },
@@ -49,9 +50,9 @@ export const menuData: MenuCategory = {
     { name: "Egg Tadka", price: 50, description: "Boiled eggs cooked in a spicy onion-tomato tadka gravy. Simple and satisfying.", image: "vegetarian" }
   ],
   "Biryani": [
-    { name: "Chicken Biryani", price: 120, description: "Fragrant basmati rice layered with tender chicken pieces, aromatic spices, saffron, and fried onions. Served with raita.", image: "chicken-biriyani" },
-    { name: "Aloo Biryani", price: 90, description: "Vegetarian delight with spiced potatoes layered with fragrant basmati rice, herbs, and aromatic spices.", image: "alu-biriyani" },
-    { name: "Egg Biryani", price: 100, description: "Flavorful biryani with boiled eggs layered in aromatic basmati rice with whole spices and saffron.", image: "egg-biriyani" }
+    { name: "Chicken Biryani", price: 120, description: "Fragrant basmati rice layered with tender chicken pieces, aromatic spices, saffron, and fried onions. Served with raita.", image: "biryani" },
+    { name: "Aloo Biryani", price: 90, description: "Vegetarian delight with spiced potatoes layered with fragrant basmati rice, herbs, and aromatic spices.", image: "biryani" },
+    { name: "Egg Biryani", price: 100, description: "Flavorful biryani with boiled eggs layered in aromatic basmati rice with whole spices and saffron.", image: "biryani" }
   ],
   "Bread": [
     { name: "Roti", price: 5, description: "Soft, thin whole wheat flatbread cooked on a tawa. Perfect accompaniment to any curry.", image: "bread" },
@@ -81,13 +82,18 @@ export const menuData: MenuCategory = {
     { name: "Mixed Rice", price: 150, description: "Loaded fried rice with chicken, egg, and vegetables. A complete meal in itself.", image: "non-veg-rice" }
   ],
   "Chowmein": [
-    { name: "Veg Chowmein", price: 50, half: 30, description: "Classic Hakka noodles stir-fried with fresh vegetables, garlic, and savory sauces. Light and healthy.", image: "vegchow" },
-    { name: "Egg Chowmein", price: 60, half: 40, description: "Hakka noodles tossed with scrambled eggs, vegetables, and Indo-Chinese sauces. Perfect balance.", image: "eggchow" },
-    { name: "Egg Chicken Chowmein", price: 80, half: 50, description: "Best of both worlds - noodles with chicken and eggs, vegetables, and flavorful sauces.", image: "eggchickenchow" },
-    { name: "Paneer Chowmein", price: 90, half: 50, description: "Hakka noodles with soft paneer cubes, colorful vegetables, and spicy-tangy sauce.", image: "pannerchow" },
-    { name: "Mixed Chowmein", price: 120, half: 70, description: "Ultimate chowmein loaded with chicken, egg, paneer, vegetables, and special sauces. Most popular!", image: "mixchow" },
-    { name: "Chicken Chowmein", price: 70, half: 50, description: "Delicious noodles stir-fried with tender chicken pieces, crunchy vegetables, and aromatic sauces.", image: "chickenchow" }
+    { name: "Veg Chowmein", price: 50, half: 30, description: "Classic Hakka noodles stir-fried with fresh vegetables, garlic, and savory sauces. Light and healthy.", image: "chowmein" },
+    { name: "Egg Chowmein", price: 60, half: 40, description: "Hakka noodles tossed with scrambled eggs, vegetables, and Indo-Chinese sauces. Perfect balance.", image: "chowmein" },
+    { name: "Egg Chicken Chowmein", price: 80, half: 50, description: "Best of both worlds - noodles with chicken and eggs, vegetables, and flavorful sauces.", image: "chowmein" },
+    { name: "Paneer Chowmein", price: 90, half: 50, description: "Hakka noodles with soft paneer cubes, colorful vegetables, and spicy-tangy sauce.", image: "chowmein" },
+    { name: "Mixed Chowmein", price: 120, half: 70, description: "Ultimate chowmein loaded with chicken, egg, paneer, vegetables, and special sauces. Most popular!", image: "chowmein" },
+    { name: "Chicken Chowmein", price: 70, half: 50, description: "Delicious noodles stir-fried with tender chicken pieces, crunchy vegetables, and aromatic sauces.", image: "chowmein" }
   ]
 };
+
+// Populate "All Items" with all menu items from other categories
+menuData["All Items"] = Object.entries(menuData)
+  .filter(([category]) => category !== "All Items")
+  .flatMap(([_, items]) => items);
 
 export const categories = Object.keys(menuData);
