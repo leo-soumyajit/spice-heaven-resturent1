@@ -11,6 +11,36 @@ import rolls from "@/assets/rolls.jpg";
 import vegRice from "@/assets/veg-rice.jpg";
 import nonVegRice from "@/assets/non-veg-rice.jpg";
 import chowmein from "@/assets/chowmein.jpg";
+import vegchow from "@/assets/vegchow.jpg";
+import eggchow from "@/assets/eggchow.jpg";
+import chickenchow from "@/assets/chickenchow.png";
+import eggchickenchow from "@/assets/eggchickenchow.png";
+import pannerchow from "@/assets/pannerchow.png";
+import mixchow from "@/assets/mixchow.jpg";
+import eggrice from "@/assets/eggrice.png";
+import chickenrice from "@/assets/chickenrice.png";
+import mixedrice from "@/assets/mixedrice.png";
+import vegrice from"@/assets/vegrice.png";
+import paneerrice from"@/assets/paneerrice.png";
+import vegpolao from"@/assets/vegpolao.png";
+import jeerarice from"@/assets/jeerarice.png";
+import lemonrice from"@/assets/lemonrice.png";
+import eggroll from "@/assets/eggroll.png";
+import eggchickenroll from "@/assets/eggchickenroll.png";
+import chickenroll from "@/assets/chickenroll.png";
+import dbeggroll from "@/assets/dbeggroll.png";
+import paneerroll from "@/assets/paneerroll.png";
+import lachharoll from "@/assets/lachharoll.png";
+import nmroti from "@/assets/nmroti.png";
+import aluparatha  from "@/assets/aluparatha.png";
+import butternan from "@/assets/butternan.png";
+import tandooriroti from "@/assets/tandooriroti.png";
+import maslakulcha from "@/assets/maslakulcha.png";
+import chickenbriyani from "@/assets/chickenbriyani.png";
+import alubriyani from "@/assets/alu-biriyani.png";
+import eggbriyani from "@/assets/egg-biriyani.avif";
+
+
 
 interface MenuItemCardProps {
   item: MenuItem;
@@ -25,9 +55,38 @@ const imageMap: Record<string, string> = {
   "biryani": biryani,
   "bread": bread,
   "rolls": rolls,
-  "veg-rice": vegRice,
+  // "veg-rice": vegRice,
   "non-veg-rice": nonVegRice,
   "chowmein": chowmein,
+  "veg-chow":vegchow,
+  "egg-chow":eggchow,
+  "chicken-chow":chickenchow,
+  "egg-chicken-chow":eggchickenchow,
+  "panner-chow":pannerchow,
+  "mix-chow":mixchow,
+  "egg-rice":eggrice,
+  "chicken-rice":chickenrice,
+  "mixed-rice":mixedrice,
+  "veg-rice":vegrice,
+  "paneer-rice":paneerrice,
+  "veg-polao":vegpolao,
+  "jeera-rice":jeerarice,
+  "lemon-rice":lemonrice,
+  "egg-roll":eggroll,
+  "egg-chicken-roll":eggchickenroll,
+  "chicken-roll":chickenroll,
+  "db-egg-roll":dbeggroll,
+  "paneer-roll":paneerroll,
+  "lachha-roll":lachharoll,
+  "nm-roti":nmroti,
+  "alu-paratha":aluparatha,
+  "butter-nan":butternan,
+  "tandoori-roti":tandooriroti,
+  "masla-kulcha":maslakulcha,
+  "chicken-briyani":chickenbriyani,
+  "alu-briyani":alubriyani,
+  "egg-briyani":eggbriyani,
+
 };
 
 const MenuItemCard = ({ item, onClick, variant = "card" }: MenuItemCardProps) => {

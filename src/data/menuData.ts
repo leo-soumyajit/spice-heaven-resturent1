@@ -50,44 +50,44 @@ export const menuData: MenuCategory = {
     { name: "Egg Tadka", price: 50, description: "Boiled eggs cooked in a spicy onion-tomato tadka gravy. Simple and satisfying.", image: "vegetarian" }
   ],
   "Biryani": [
-    { name: "Chicken Biryani", price: 120, description: "Fragrant basmati rice layered with tender chicken pieces, aromatic spices, saffron, and fried onions. Served with raita.", image: "biryani" },
-    { name: "Aloo Biryani", price: 90, description: "Vegetarian delight with spiced potatoes layered with fragrant basmati rice, herbs, and aromatic spices.", image: "biryani" },
-    { name: "Egg Biryani", price: 100, description: "Flavorful biryani with boiled eggs layered in aromatic basmati rice with whole spices and saffron.", image: "biryani" }
+    { name: "Chicken Biryani", price: 120, description: "Fragrant basmati rice layered with tender chicken pieces, aromatic spices, saffron, and fried onions. Served with raita.", image: "chicken-briyani" },
+    { name: "Aloo Biryani", price: 90, description: "Vegetarian delight with spiced potatoes layered with fragrant basmati rice, herbs, and aromatic spices.", image: "alu-briyani" },
+    { name: "Egg Biryani", price: 100, description: "Flavorful biryani with boiled eggs layered in aromatic basmati rice with whole spices and saffron.", image: "egg-briyani" }
   ],
   "Bread": [
-    { name: "Roti", price: 5, description: "Soft, thin whole wheat flatbread cooked on a tawa. Perfect accompaniment to any curry.", image: "bread" },
-    { name: "Aloo Paratha", price: 25, description: "Stuffed whole wheat flatbread filled with spiced mashed potatoes. Served with butter, curd, and pickle.", image: "bread" },
-    { name: "Butter Naan", price: 10, description: "Soft, fluffy leavened bread baked in a tandoor and brushed with butter. A classic favorite.", image: "bread" },
-    { name: "Tandoori Roti", price: 7, description: "Whole wheat flatbread baked in a traditional clay tandoor oven. Slightly smoky and crispy.", image: "bread" },
-    { name: "Mashala Kulcha", price: 30, description: "Leavened bread stuffed with spiced onions, paneer, and herbs. Baked in tandoor and brushed with butter.", image: "bread" }
+    { name: "Roti", price: 5, description: "Soft, thin whole wheat flatbread cooked on a tawa. Perfect accompaniment to any curry.", image: "nm-roti" },
+    { name: "Aloo Paratha", price: 25, description: "Stuffed whole wheat flatbread filled with spiced mashed potatoes. Served with butter, curd, and pickle.", image: "alu-paratha" },
+    { name: "Butter Naan", price: 10, description: "Soft, fluffy leavened bread baked in a tandoor and brushed with butter. A classic favorite.", image: "butter-nan" },
+    { name: "Tandoori Roti", price: 7, description: "Whole wheat flatbread baked in a traditional clay tandoor oven. Slightly smoky and crispy.", image: "tandoori-roti" },
+    { name: "Mashala Kulcha", price: 30, description: "Leavened bread stuffed with spiced onions, paneer, and herbs. Baked in tandoor and brushed with butter.", image: "masla-kulcha" }
   ],
   "Rolls": [
-    { name: "Egg Roll", price: 40, description: "Soft paratha wrapped around spiced egg omelet with onions, green chilies, and sauces. Quick and tasty.", image: "rolls" },
-    { name: "Egg Chicken Roll", price: 70, description: "Delicious combination of egg and chicken tikka wrapped in paratha with veggies and tangy sauces.", image: "rolls" },
-    { name: "Chicken Roll", price: 60, description: "Succulent chicken tikka pieces wrapped in soft paratha with onions, mint chutney, and spicy sauces.", image: "rolls" },
-    { name: "Double Egg Roll", price: 50, description: "Double the eggs for extra protein! Spiced egg omelet wrapped in paratha with fresh vegetables.", image: "rolls" },
-    { name: "Paneer Roll", price: 60, description: "Grilled paneer cubes with onions, bell peppers, and sauces wrapped in soft paratha. Perfect vegetarian option.", image: "rolls" },
-    { name: "Lachha Roll", price: 20, description: "Simple yet delicious plain lachha paratha roll with basic seasonings and sauces.", image: "rolls" }
+    { name: "Egg Roll", price: 40, description: "Soft paratha wrapped around spiced egg omelet with onions, green chilies, and sauces. Quick and tasty.", image: "egg-roll" },
+    { name: "Egg Chicken Roll", price: 70, description: "Delicious combination of egg and chicken tikka wrapped in paratha with veggies and tangy sauces.", image: "egg-chicken-roll" },
+    { name: "Chicken Roll", price: 60, description: "Succulent chicken tikka pieces wrapped in soft paratha with onions, mint chutney, and spicy sauces.", image: "chicken-roll" },
+    { name: "Double Egg Roll", price: 50, description: "Double the eggs for extra protein! Spiced egg omelet wrapped in paratha with fresh vegetables.", image: "db-egg-roll" },
+    { name: "Paneer Roll", price: 60, description: "Grilled paneer cubes with onions, bell peppers, and sauces wrapped in soft paratha. Perfect vegetarian option.", image: "paneer-roll" },
+    { name: "Lachha Roll", price: 20, description: "Simple yet delicious plain lachha paratha roll with basic seasonings and sauces.", image: "lachha-roll" }
   ],
   "Veg Rice": [
     { name: "Veg Rice", price: 70, description: "Colorful fried rice with mixed vegetables, aromatic spices, and herbs. Light yet satisfying.", image: "veg-rice" },
-    { name: "Paneer Rice", price: 100, description: "Fried rice with soft paneer cubes, vegetables, and Indo-Chinese flavors. Rich and protein-packed.", image: "veg-rice" },
-    { name: "Veg Polao", price: 90, description: "Fragrant basmati rice cooked with mixed vegetables, whole spices, and aromatic herbs.", image: "veg-rice" },
-    { name: "Jeera Rice", price: 70, description: "Simple basmati rice tempered with cumin seeds and ghee. Perfect with any curry.", image: "veg-rice" },
-    { name: "Lemon Rice", price: 80, description: "South Indian style rice flavored with lemon juice, curry leaves, peanuts, and turmeric.", image: "veg-rice" }
+    { name: "Paneer Rice", price: 100, description: "Fried rice with soft paneer cubes, vegetables, and Indo-Chinese flavors. Rich and protein-packed.", image: "paneer-rice" },
+    { name: "Veg Polao", price: 90, description: "Fragrant basmati rice cooked with mixed vegetables, whole spices, and aromatic herbs.", image: "veg-polao" },
+    { name: "Jeera Rice", price: 70, description: "Simple basmati rice tempered with cumin seeds and ghee. Perfect with any curry.", image: "jeera-rice" },
+    { name: "Lemon Rice", price: 80, description: "South Indian style rice flavored with lemon juice, curry leaves, peanuts, and turmeric.", image: "lemon-rice" }
   ],
   "Non-Veg Rice": [
-    { name: "Egg Rice", price: 80, description: "Tasty fried rice with scrambled eggs, vegetables, and savory sauces. Protein-rich and delicious.", image: "non-veg-rice" },
-    { name: "Chicken Rice", price: 120, description: "Flavorful fried rice with tender chicken pieces, vegetables, and aromatic spices.", image: "non-veg-rice" },
-    { name: "Mixed Rice", price: 150, description: "Loaded fried rice with chicken, egg, and vegetables. A complete meal in itself.", image: "non-veg-rice" }
+    { name: "Egg Rice", price: 80, description: "Tasty fried rice with scrambled eggs, vegetables, and savory sauces. Protein-rich and delicious.", image: "egg-rice" },
+    { name: "Chicken Rice", price: 120, description: "Flavorful fried rice with tender chicken pieces, vegetables, and aromatic spices.", image: "chicken-rice" },
+    { name: "Mixed Rice", price: 150, description: "Loaded fried rice with chicken, egg, and vegetables. A complete meal in itself.", image: "mixed-rice" }
   ],
   "Chowmein": [
-    { name: "Veg Chowmein", price: 50, half: 30, description: "Classic Hakka noodles stir-fried with fresh vegetables, garlic, and savory sauces. Light and healthy.", image: "chowmein" },
-    { name: "Egg Chowmein", price: 60, half: 40, description: "Hakka noodles tossed with scrambled eggs, vegetables, and Indo-Chinese sauces. Perfect balance.", image: "chowmein" },
-    { name: "Egg Chicken Chowmein", price: 80, half: 50, description: "Best of both worlds - noodles with chicken and eggs, vegetables, and flavorful sauces.", image: "chowmein" },
-    { name: "Paneer Chowmein", price: 90, half: 50, description: "Hakka noodles with soft paneer cubes, colorful vegetables, and spicy-tangy sauce.", image: "chowmein" },
-    { name: "Mixed Chowmein", price: 120, half: 70, description: "Ultimate chowmein loaded with chicken, egg, paneer, vegetables, and special sauces. Most popular!", image: "chowmein" },
-    { name: "Chicken Chowmein", price: 70, half: 50, description: "Delicious noodles stir-fried with tender chicken pieces, crunchy vegetables, and aromatic sauces.", image: "chowmein" }
+    { name: "Veg Chowmein", price: 50, half: 30, description: "Classic Hakka noodles stir-fried with fresh vegetables, garlic, and savory sauces. Light and healthy.", image: "veg-chow" },
+    { name: "Egg Chowmein", price: 60, half: 40, description: "Hakka noodles tossed with scrambled eggs, vegetables, and Indo-Chinese sauces. Perfect balance.", image: "egg-chow" },
+    { name: "Egg Chicken Chowmein", price: 80, half: 50, description: "Best of both worlds - noodles with chicken and eggs, vegetables, and flavorful sauces.", image: "egg-chicken-chow" },
+    { name: "Paneer Chowmein", price: 90, half: 50, description: "Hakka noodles with soft paneer cubes, colorful vegetables, and spicy-tangy sauce.", image: "panner-chow" },
+    { name: "Mixed Chowmein", price: 120, half: 70, description: "Ultimate chowmein loaded with chicken, egg, paneer, vegetables, and special sauces. Most popular!", image: "mix-chow" },
+    { name: "Chicken Chowmein", price: 70, half: 50, description: "Delicious noodles stir-fried with tender chicken pieces, crunchy vegetables, and aromatic sauces.", image: "chicken-chow" }
   ]
 };
 
