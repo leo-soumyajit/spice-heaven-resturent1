@@ -38,7 +38,7 @@ const Cart = () => {
   const totalPrice = getTotalPrice();
 
   const handleAddressSubmit = (data: AddressData) => {
-    const phoneNumber = "917908288829";
+    const phoneNumber = "+918670974311";
     
     const locationLink = data.location 
       ? `https://www.google.com/maps?q=${data.location.lat},${data.location.lng}`

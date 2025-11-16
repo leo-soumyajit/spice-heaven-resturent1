@@ -48,6 +48,39 @@ import maslakulcha from "@/assets/maslakulcha.png";
 import chickenbriyani from "@/assets/chickenbriyani.png";
 import alubriyani from "@/assets/alu-biriyani.png";
 import eggbriyani from "@/assets/egg-biriyani.avif";
+import mixveg from "@/assets/mixveg.jpg";
+import paneerbuttermasla from "@/assets/paneerbuttermasla.jpg";
+import mushroomchilly from "@/assets/Mushroomchilly.avif";
+import tadka from "@/assets/tadka.webp";
+import mushroombuttermasla from "@/assets/mushroombuttermasla.jpg";
+import paneerchilly from "@/assets/paneerchilly.jpg";
+import chanamasla from "@/assets/chanamasla.jpg";
+import aloogobi from "@/assets/aloogobi.jpeg";
+import eggtadka from "@/assets/eggtadka.jpg";
+import chickenpakora from "@/assets/chickenpakora.jpg";
+import chickenlolipop from "@/assets/chickenlolipop.jpg";
+import chickenmoglai from "@/assets/chickenmoglai.jpg";
+import eggmoglai from "@/assets/eggmoglai.webp";
+import chickenkosha from "@/assets/chickenkosha.webp";
+import chillychicken from "@/assets/chillychicken.webp";
+import chickenbuttermasla from "@/assets/chickenbuttermasla.jpg";
+import kadaichicken from "@/assets/kadaichicken.webp";
+import chickenpunjabi from "@/assets/chickenpunjabi.webp";
+import chickenmanchurian from "@/assets/chickenmanchurian.jpg";
+import chickenrezala from "@/assets/chickenrezala.jpg";
+import chickenchap from "@/assets/ChickenChaap.jpg";
+import chickenbharta from "@/assets/chickenbharta.jpeg";
+import drychilichicken from "@/assets/drychilichicken.avif";
+import chickenmomosteam from "@/assets/chickenmomosteam.jpg";
+import frymomo from "@/assets/frymomo.webp";
+import chickentikka from "@/assets/chickentikka.webp";
+import chickenreshamikabab from "@/assets/chickenreshmikabab.jpg";
+import chickenhariyalikabab from "@/assets/ChickenHariyaliKabab.jpg";
+import chickenpharikabab from "@/assets/chickenpahari.webp";
+import chickenlegpice from "@/assets/chickenlegpice.jpg";
+import chickenstick from "@/assets/chickensick.jpg";
+import chickenwings from "@/assets/chickenwings.webp";
+import chickentandoor from "@/assets/chickentandoor.jpg";
 
 
 interface MenuItemDialogProps {
@@ -58,7 +91,7 @@ interface MenuItemDialogProps {
 
 const imageMap: Record<string, string> = {
   "chicken-curry": chickenCurry,
-  "chicken-pakora": chickenPakora,
+  // "chicken-pakora": chickenPakora,
   "vegetarian": vegetarian,
   "biryani": biryani,
   "bread": bread,
@@ -94,6 +127,39 @@ const imageMap: Record<string, string> = {
   "chicken-briyani":chickenbriyani,
   "alu-briyani":alubriyani,
   "egg-briyani":eggbriyani,
+  "mix-veg":mixveg,
+  "paneer-butter-masla":paneerbuttermasla,
+  "mushroom-chilly":mushroomchilly,
+  "tadka":tadka,
+  "mushroom-butter-masla":mushroombuttermasla,
+  "paneer-chilly":paneerchilly,
+  "chana-masla":chanamasla,
+  "aloo-gobi":aloogobi,
+  "egg-tadka":eggtadka,
+  "chicken-pakora":chickenpakora,
+  "chicken-lolipop":chickenlolipop,
+  "chicken-moglai":chickenmoglai,
+  "egg-moglai":eggmoglai,
+  "chicken-kosha":chickenkosha,
+  "chilly-chicken":chillychicken,
+  "chicken-butter-masla":chickenbuttermasla,
+  "kadai-chicken":kadaichicken,
+  "chicken-punjabi":chickenpunjabi,
+  "chicken-manchurian":chickenmanchurian,
+  "chicken-rezala":chickenrezala,
+  "chicken-chap":chickenchap,
+  "chicken-bharta":chickenbharta,
+  "dry-chili-chicken":drychilichicken,
+  "chicken-momo-steam":chickenmomosteam,
+  "fry-momo":frymomo,
+  "chicken-tikka":chickentikka,
+  "chicken-reshami-kabab":chickenreshamikabab,
+  "chicken-hariyali-kabab":chickenhariyalikabab,
+  "chicken-phari-kabab":chickenpharikabab,
+  "chicken-leg-pice":chickenlegpice,
+  "chicken-stick":chickenstick,
+  "chicken-wings":chickenwings,
+  "chicken-tandoor":chickentandoor,
 };
 
 const MenuItemDialog = ({ item, open, onOpenChange }: MenuItemDialogProps) => {

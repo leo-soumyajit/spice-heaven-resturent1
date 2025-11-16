@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center text-center">
         <div className="animate-fade-in">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-3 sm:mb-4 drop-shadow-lg">
-            Spice Haven
+            Maa Lakshmirani Restaurant
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/95 mb-6 sm:mb-8 font-medium px-4">
             Authentic Indian Flavors, Delivered to Your Door

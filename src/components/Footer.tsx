@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Restaurant Info */}
           <div className="md:col-span-2">
             <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-primary-foreground to-primary-foreground/80 bg-clip-text text-transparent">
-              Spice Haven
+              Maa Lakshmirani Restaurant
             </h3>
             <p className="text-primary-foreground/90 mb-4 max-w-md leading-relaxed">
               Authentic Indian cuisine crafted with love and the finest spices. Experience the rich flavors and traditions of India in every dish.
@@ -19,9 +19,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4 tracking-wide">Contact Us</h4>
             <div className="space-y-3">
-              <a href="tel:+917908288829" className="flex items-center gap-3 hover:text-primary-foreground/80 transition-colors group">
+              <a href="tel:+918670974311" className="flex items-center gap-3 hover:text-primary-foreground/80 transition-colors group">
                 <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                <span className="text-sm">+91 79082 88829</span>
+                <span className="text-sm">+91 8670974311</span>
               </a>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/70 text-sm">
-              © {new Date().getFullYear()} Spice Haven. All rights reserved.
+              © {new Date().getFullYear()} Maa Lakshmirani Restaurant. All rights reserved.
             </p>
             
             {/* ULMiND Attribution */}
