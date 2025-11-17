@@ -72,6 +72,7 @@ import chickenlegpice from "@/assets/chickenlegpice.jpg";
 import chickenstick from "@/assets/chickensick.jpg";
 import chickenwings from "@/assets/chickenwings.webp";
 import chickentandoor from "@/assets/chickentandoor.jpg";
+import chickenchana from "@/assets/chickenchana.jpg";
 
 
 
@@ -153,6 +154,7 @@ const imageMap: Record<string, string> = {
   "chicken-stick":chickenstick,
   "chicken-wings":chickenwings,
   "chicken-tandoor":chickentandoor,
+  "chickenchana":chickenchana,
   
 };
 

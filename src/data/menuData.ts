@@ -26,6 +26,7 @@ export const menuData: MenuCategory = {
     { name: "Chicken Rezala", price: 140, description: "Aromatic Bengali white chicken curry made with yogurt, poppy seeds, and cashews. Delicately spiced and creamy.", image: "chicken-rezala" },
     { name: "Chicken Chaap", price: 120, description: "Tender chicken pieces marinated in yogurt and spices, slow-cooked in a rich, flavorful gravy.", image: "chicken-chap" },
     { name: "Chicken Bharta", price: 130, description: "Shredded chicken cooked with mashed potatoes, onions, and spices. A unique and flavorful dish.", image: "chicken-bharta" },
+    {name: "Chicken Chana Masala",price: 80,half:50,description: "Tender chicken pieces simmered with chickpeas, onions, tomatoes, and aromatic spices. A hearty and satisfying North Indian classic.",image: "chickenchana"},
     { name: "Dry Chilly Chicken", price: 120, description: "Boneless chicken stir-fried with green chilies, bell peppers, and onions in a spicy, dry preparation.", image: "dry-chili-chicken" },
     { name: "Chicken Momo Steam (5pc)", price: 50, description: "Steamed dumplings filled with seasoned minced chicken and vegetables. Served with spicy red chutney.", image: "chicken-momo-steam" },
     { name: "Fry Momo", price: 60, description: "Crispy pan-fried momos filled with juicy chicken mixture. Perfectly golden and crunchy outside, soft inside.", image: "fry-momo" },
