@@ -24,8 +24,8 @@ export default defineConfig(({ mode }) => ({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,webp}']
       },
       manifest: {
-        name: 'Spice Heaven Restaurant',
-        short_name: 'Spice Heaven',
+        name: 'Ma Lakshmirani Restaurant',
+        short_name: 'Ma Lakshmirani Restaurant',
         description: 'Your restaurant description',
         theme_color: '#ffffff',
         icons: [
